@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import theme from "./theme";
+import NavComp from "./component/navbar/navbar.component";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
+          <NavComp />
           {children}
         </ThemeProvider>
       </body>
