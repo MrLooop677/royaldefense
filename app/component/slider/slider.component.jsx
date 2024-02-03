@@ -17,26 +17,64 @@ const AutoPlaySlider = () => {
   };
 
   return (
-    <Box mt={8}>
+    <Box mt={1}>
       <Slider {...settings}>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${36}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`https://templateplazza.com/images/slides/responsivebannerslider/responsivebannerslider3.jpg`}
+          />
         </div>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${80}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`https://i.pinimg.com/originals/7a/a9/cc/7aa9ccddbe2e40c5ac9b2485890609d5.jpg`}
+          />
         </div>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${35}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`https://i.ytimg.com/vi/CDvk78XX4Wc/maxresdefault.jpg`}
+          />
         </div>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${72}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`https://cdn.dribbble.com/users/1209067/screenshots/6213847/mydesign_4x.png`}
+          />
         </div>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${91}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`http://blog.magestore.com/wp-content/uploads/2016/01/saloon1.jpg`}
+          />
         </div>
         <div>
-          <img src={`https://picsum.photos/600/300/?image=${77}`} />
+          <img
+            style={{ height: "450px" }}
+            src={`https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1a217134646519.56e18c7bdaed1.jpg`}
+          />
         </div>
+        {/* <div>
+          <img
+            src={`https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1a217134646519.56e18c7bdaed1.jpg`}
+          />
+        </div>
+        <div>
+          <img
+            src={`http://blog.magestore.com/wp-content/uploads/2016/01/saloon1.jpg`}
+          />
+        </div>
+        <div>
+          <img
+            src={`http://blog.magestore.com/wp-content/uploads/2016/01/saloon1.jpg`}
+          />
+        </div>
+        <div>
+          <img
+            src={`http://blog.magestore.com/wp-content/uploads/2016/01/saloon1.jpg`}
+          />
+        </div> */}
       </Slider>
     </Box>
   );

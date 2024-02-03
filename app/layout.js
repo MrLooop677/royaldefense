@@ -5,6 +5,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import theme from "./theme";
 import NavComp from "./component/navbar/navbar.component";
+import TopbarComp from "./component/topbar/topbar";
+import FooterComp from "./component/footer/footer.component";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +21,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
+          <TopbarComp />
+
           <NavComp />
           {children}
+          <FooterComp />
         </ThemeProvider>
       </body>
     </html>
